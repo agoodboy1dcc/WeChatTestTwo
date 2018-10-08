@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/shoppingcart/shoppingcart",
+    "pages/testlist/testlist"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/Home.png",
+        "selectedIconPath":"/pages/images/Message.png"
+      },
+      {
+        "pagePath": "pages/shoppingcart/shoppingcart",
+        "text": "购物车",
+        "iconPath": "pages/images/Home.png",
+        "selectedIconPath": "/pages/images/Message.png"
+      },
+      {
+        "pagePath": "pages/testlist/testlist",
+        "text": "循环内容练习",
+        "iconPath": "pages/images/Home.png",
+        "selectedIconPath": "/pages/images/Message.png"
+      }
+    ]
+  }
+}

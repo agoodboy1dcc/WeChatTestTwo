@@ -1,0 +1,5 @@
+/* pages/testlist/testlist.wxss */
+.imagewh{
+  width:30px;
+  height:30px;
+}

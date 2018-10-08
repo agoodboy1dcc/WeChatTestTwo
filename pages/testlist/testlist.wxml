@@ -1,0 +1,8 @@
+<!--pages/testlist/testlist.wxml-->
+<view>
+  <view wx:for="{{testlist}}" wx:for-index="index" data-index="{{index}}">
+    <text>{{item.name}}</text>
+    <image class="imagewh" src="{{item.images}}"></image>
+  </view>
+      <button type="default" bindtap='updatebody'>改变循环显示的内容</button>
+</view>
