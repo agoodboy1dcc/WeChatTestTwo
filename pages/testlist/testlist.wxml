@@ -1,8 +1,13 @@
 <!--pages/testlist/testlist.wxml-->
 <view>
-  <view wx:for="{{testlist}}" wx:for-index="index" data-index="{{index}}">
+  <view wx:for="{{testlist}}" wx:for-index="index" data-index="{{index}}" wx-key="{{index}}">
+    <icon wx:if="{{item.selected}}" type="success" data-index="{{index}}" bindtap='selectlist'></icon>
+    <icon wx:else type="circle" bindtap='selectlist' data-index="{{index}}" ></icon>
     <text>{{item.name}}</text>
     <image class="imagewh" src="{{item.images}}"></image>
   </view>
-      <button type="default" bindtap='updatebody'>改变循环显示的内容</button>
+  <button type="default" bindtap='updatebody'>改变循环显示的内容</button>
+  <view>
+    <button bindtap='bindtest'>test</button>
+  </view>
 </view>

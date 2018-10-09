@@ -1,3 +1,5 @@
 {
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
   "navigationBarTitleText": "购物车"
 }

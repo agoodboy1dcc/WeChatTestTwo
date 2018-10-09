@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/shoppingcart/shoppingcart",
-    "pages/testlist/testlist"
+    "pages/testlist/testlist",
+    "pages/phonecall/phonecall",
+    "pages/showlogin/showlogin"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -19,7 +21,7 @@
         "pagePath": "pages/index/index",
         "text": "首页",
         "iconPath": "pages/images/Home.png",
-        "selectedIconPath":"/pages/images/Message.png"
+        "selectedIconPath": "/pages/images/Message.png"
       },
       {
         "pagePath": "pages/shoppingcart/shoppingcart",
@@ -30,6 +32,12 @@
       {
         "pagePath": "pages/testlist/testlist",
         "text": "循环内容练习",
+        "iconPath": "pages/images/Home.png",
+        "selectedIconPath": "/pages/images/Message.png"
+      },
+      {
+        "pagePath": "pages/showlogin/showlogin",
+        "text": "我的",
         "iconPath": "pages/images/Home.png",
         "selectedIconPath": "/pages/images/Message.png"
       }

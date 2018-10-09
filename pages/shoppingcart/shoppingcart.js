@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    duration:1000,
     carts: [], // 购物车列表
     hasList: false, // 列表是否有数据
     totalPrice: 0, // 总价，初始为0
@@ -171,7 +172,7 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function() {
-
+    wx.stopPullDownRefresh();
   },
 
   /**

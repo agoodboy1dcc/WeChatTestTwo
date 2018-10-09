@@ -1,0 +1,6 @@
+<!--pages/phonecall/phonecall.wxml-->
+<view class="phonetext">请输入电话号码</view>
+<input class="input" type="number" name="input" bindinput="bindInput" />
+<view class="btn-area">
+  <button type="primary" bindtap="makePhoneCall" disabled="{{disabled}}">拨打</button>
+</view>
